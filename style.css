@@ -1,0 +1,48 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666666;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* Survey Button Styles */
+.survey-button {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff6b6b;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(255, 107, 107, 0.4);
+    transition: background-color 0.3s ease;
+}
+
+.survey-button:hover {
+    background-color: #ff4040;
+}
